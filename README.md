@@ -4,7 +4,7 @@ A starter Java 8 application with Apache Spark, built using Java 8.
 
 ## Compiling and Running
 
-Compile using `maven package`. This produces an uberjar. TODO: exclude unnecessary items from the uberjar.
+Compile using `mvn package`. This produces an uberjar. (**TODO**: exclude unnecessary items from the uberjar.)
 
 Use the following command line to run:
 ```
