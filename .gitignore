@@ -1,0 +1,24 @@
+# IDE cruft
+.idea/
+out/
+target/
+build/
+*.iml
+dependency-reduced-pom.xml
+
+*.class
+*.log
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# editor cruft
+*.swp
+
