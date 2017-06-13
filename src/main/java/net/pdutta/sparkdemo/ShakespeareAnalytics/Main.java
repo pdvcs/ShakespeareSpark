@@ -29,10 +29,13 @@ public class Main {
             System.exit(2);
         }
         String topNStr = args[1];
-        Integer topN = 100;
+        Integer topN;
         try {
             topN = Integer.parseInt(topNStr);
         } catch (NumberFormatException ex) {
+            topN = -1;
+        }
+        if (topN < 10 || topN > 20000) {
             System.out.println("error: please enter a number between 10 and 20000; you entered: " + topNStr);
             System.exit(3);
         }
